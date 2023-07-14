@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#gap{
+    padding-right: 20px;
+}
+#align{
+margin-left: 880px;
+}
+.total-area-of-the-header{
+    height: 100vh;
+    background-color:#FFF8F3 ;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-lists ul {
+    display: flex;
+    list-style: none;
+    
+    
+}
+.right-lists ul>li{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.btn-primary{
+    padding: 20px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    /* margin-left: 20px; */
+}
+.white-button{
+    padding: 20px;
+    border: 1px solid #FD6E0A;
+    border-radius: 2px;
+    margin-left: 20px;
+    background-color:white ;
+    color:#FD6E0A;
+    
+}
+.white-button >img,.btn-primary>img{
+    padding-top: 0px;
+    padding-right: 12px;
+}
+.developer-and-details{
+    display: flex;
+    justify-content: flex-start;
+}
+.last-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.marty-img{
+    background-image: url(./images/header_bg.png);
+    background-position-y:300px ;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+}
+.details{
+    padding-top: 250px;
+    padding-left: 50px;
+}
+.about-me{
+    height: 350px;
+    background-color: #FFF8F3;
+    margin: 130px 230px ;
+    text-align: center;
+    padding-top: 130px;
+}
+.about-me-data{
+    
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 130px;
+}
+.What-i-do{
+    height: 80vh;
+    
+    
+}
+.text-about{
+    padding-bottom: 80px;
+    text-align: center;
+}
+.details-box{
+    display:flex;
+    gap: 40px;
+    margin-left:280px ;
+}
+.box-1{
+    border:none;
+    width: 267px;
+    height:280px;
+    margin-left: 40px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    background-color: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.box-text {
+    padding-left: 5px;
+}
+.box-text >p{
+    text-align: left;
+
+}
+
+.box-1 img{
+    padding-left: 5px;
+    width: 44px;
+    height: 44px;
+    padding-bottom: 40px;
+
+}
+.a-summary-of-my-resume{
+    height: 65vh;
+    display: flex;
+    justify-content: space-around;
+}
+.a-summary-of-my-resume h1{
+    text-align: center;
+    padding-bottom: 150px;
+}
+.my-educaton ,.my-experience{
+    border-bottom: 1px solid silver;
+    width:600px;
+    gap: 20px;
+   
+}
+.my-educaton,.my-experience> p{
+padding-bottom: 12px;
+}
+.first-part{
+     padding-left: 120px;
+   
+}
+.footer{
+    height: 80vh;
+    background-color: #FFF8F3;
+    margin-top: 113px;
+    padding-left: 50px;
+    padding-top: 150px;
+    display: flex;
+    gap: 450px;
+}
+.footer-left-side{
+    padding-top: 150px;
+}
+.socials{
+    display: flex;
+    gap: 20px;
+}
+.size{
+    width: 461px;
+height: 64px;
+padding-left: 12px;
+border-radius: 5px;
+}
