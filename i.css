@@ -16,6 +16,7 @@ margin-left: 880px;
 .header{
     display: flex;
     justify-content: space-around;
+    padding-top: 30px;
 }
 
 .right-lists ul {
@@ -165,4 +166,11 @@ padding-bottom: 12px;
 height: 64px;
 padding-left: 12px;
 border-radius: 5px;
+}
+@media screen and(max-width:576px) {
+.details-box{
+    flex-direction: row;
+    margin-left: 0px;
+}
+
 }
